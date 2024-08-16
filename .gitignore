@@ -1,1 +1,119 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Poetry specific
+.poetry/
+poetry.lock
+
+# Environments
+.env
+.venv/
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI and Python
+instance/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.egg-info/
+dist/
+build/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# React / Node.js
+node_modules/
+yarn-error.log
+yarn-debug.log*
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Build directories
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+.docker/
+**/.dockerignore
+docker-compose.yml
+docker-compose.*
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.swp
+
+# System Files
+*.bak
+*.orig
+*.rej
+*.swo
+*.swp
+
+# Ignore data files
+*.csv
+*.hdf5
+*.h5
+
+# Ignore files used in docker builds
+Dockerfile
+Dockerfile.*
+
+# Ignore test databases
+*.sqlite3
+*.db
+
+# Ignore frontend build output
+/frontend/build/
+/frontend/.cache/
+/frontend/.next/
