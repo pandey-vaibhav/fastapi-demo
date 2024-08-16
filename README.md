@@ -1,3 +1,7 @@
+# Monorepo: FastAPI Backend and React Frontend
+
+This monorepo contains both the backend and frontend components of a web application. The backend is built using FastAPI and Python, while the frontend is built using React and JavaScript. Docker is used for containerization, and Poetry and Yarn are used for dependency management.
+
 ## Getting Started
 
 ### Prerequisites
