@@ -15,8 +15,8 @@ This monorepo contains both the backend and frontend components of a web applica
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/pandey-vaibhav/fastapi-demo.git
+   cd fastapi-demo
    ```
 
 2. **Set up the backend**:
